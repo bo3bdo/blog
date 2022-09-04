@@ -7,6 +7,10 @@ use Illuminate\Support\Facades\Route;
 
 //post.create
 
+
+	Route::get('test', function (){
+		return 1;
+	});
 Route::get('/', function () {
     return view('welcome');
 });
